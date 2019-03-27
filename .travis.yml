@@ -6,5 +6,5 @@ matrix:
         - clang
         - gcc
       script:
-        - clang -o test test.c // we can use gcc instead of clang too
+        - clang -o test test.c 
         - ./test 
